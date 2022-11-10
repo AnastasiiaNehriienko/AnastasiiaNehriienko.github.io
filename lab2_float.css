@@ -1,0 +1,102 @@
+.container {
+	min-height: 100vh;
+	overflow:auto;
+}
+div {
+    text-align: center;
+}
+.header {
+	overflow:auto;
+	background-color: skyblue;
+	clear:both;
+	min-height:100px;
+}
+.footer {
+	overflow:auto;
+	background-color: skyblue;
+	clear:both;
+	min-height:100px;
+}
+.main{
+	background_color: grey;
+	height: 550px;
+}
+.h {
+	width:25%;
+	float:right;
+	background-color: white;
+	align-self: center;
+	padding: 20px;
+    margin: 1em 20px 1em 0px;
+}
+.hX {
+	text-align: center;
+}
+.hY {
+	
+	text-align: right;
+}
+.menu{
+	margin: 1.5em 20px 1em 0px;
+	float:left;
+}
+.menu ul li {
+	display: inline;
+    font-size: 20px;
+    margin: 10px;
+}
+.footer div{
+	width:65%;
+	margin: 1em 20px 1em 0px;
+	float:left;
+	
+}
+.main{
+	overflow:auto;
+}
+.four {
+	overflow:auto;
+	float:right;
+	width:25%;
+	height:550px;
+	background-color: peachpuff;
+}
+.six {
+	overflow:auto;
+	width:100%;
+	height:80px;
+	background-color: aquamarine;
+}
+.two {
+	overflow:auto;
+	float:left;
+	width:35%;
+	background-color: peachpuff;
+	height:470px;
+}
+.three {
+	overflow:auto;
+	background-color: aquamarine;
+	height:40px;
+}
+.five {
+	overflow:auto;
+	background-color: white;
+	height:430px;
+}
+.not4 {
+	overflow:auto;
+	float:left;
+	width:75%;
+	height:550px;
+}
+.not6 {
+	overflow:auto;
+	width:100%;
+	min-height:470px;
+}
+.not2 {
+	overflow:auto;
+	float:right;
+	width:65%;
+}
