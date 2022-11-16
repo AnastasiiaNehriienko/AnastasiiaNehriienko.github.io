@@ -4,26 +4,33 @@
 }
 div {
     text-align: center;
+	position:relative;
 }
 .header {
 	overflow:auto;
+	position:relative;
 	background-color: skyblue;
 	clear:both;
 	min-height:100px;
 }
 .footer {
 	overflow:auto;
+	position:relative;
 	background-color: skyblue;
 	clear:both;
 	min-height:100px;
 }
+.footerDiv{
+	width:75%;
+	float:left;
+}
 .main{
+	overflow:auto;
+	position:relative;
 	background_color: grey;
-	height: 550px;
+	min-height: 550px;
 }
 .h {
-	width:25%;
-	float:right;
 	background-color: white;
 	align-self: center;
 	padding: 20px;
@@ -36,8 +43,12 @@ div {
 	
 	text-align: right;
 }
+.footerHeadline{
+	width:25%;
+	float:right;
+}
 .menu{
-	margin: 1.5em 20px 1em 0px;
+	max-width:75%;
 	float:left;
 }
 .menu ul li {
@@ -45,58 +56,50 @@ div {
     font-size: 20px;
     margin: 10px;
 }
-.footer div{
-	width:65%;
-	margin: 1em 20px 1em 0px;
-	float:left;
-	
+.headerHeadline{
+	width:25%;
+	float:right;
 }
 .main{
-	overflow:auto;
 }
 .four {
-	overflow:auto;
 	float:right;
 	width:25%;
-	height:550px;
+	min-height:550px;
 	background-color: peachpuff;
 }
 .six {
-	overflow:auto;
+	float:inherit;
 	width:100%;
-	height:80px;
+	min-height:80px;
 	background-color: aquamarine;
 }
 .two {
-	overflow:auto;
 	float:left;
 	width:35%;
 	background-color: peachpuff;
-	height:470px;
+	min-height:470px;
 }
 .three {
-	overflow:auto;
 	background-color: aquamarine;
-	height:40px;
+	min-height:40px;
 }
 .five {
-	overflow:auto;
+	float:inherit;
 	background-color: white;
-	height:430px;
+	min-height:430px;
 }
 .not4 {
-	overflow:auto;
 	float:left;
 	width:75%;
-	height:550px;
+	min-height:550px;
 }
 .not6 {
-	overflow:auto;
 	width:100%;
 	min-height:470px;
 }
 .not2 {
-	overflow:auto;
 	float:right;
 	width:65%;
+	min-height:470px;
 }
