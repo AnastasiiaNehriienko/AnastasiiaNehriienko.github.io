@@ -28,7 +28,7 @@ div {
 	overflow:auto;
 	position:relative;
 	background_color: grey;
-	min-height: 550px;
+	/* min-height: 550px; */
 }
 .h {
 	background-color: white;
@@ -65,41 +65,41 @@ div {
 .four {
 	float:right;
 	width:25%;
-	min-height:550px;
+	/* min-height:550px; */
 	background-color: peachpuff;
 }
 .six {
 	float:inherit;
 	width:100%;
-	min-height:80px;
+	/* min-height:80px; */
 	background-color: aquamarine;
 }
 .two {
 	float:left;
 	width:35%;
 	background-color: peachpuff;
-	min-height:470px;
+	/* min-height:470px; */
 }
 .three {
 	background-color: aquamarine;
-	min-height:40px;
+	/* min-height:40px; */
 }
 .five {
 	float:inherit;
 	background-color: white;
-	min-height:430px;
+	/* min-height:430px; */
 }
 .not4 {
 	float:left;
 	width:75%;
-	min-height:550px;
+	/* min-height:550px; */
 }
 .not6 {
 	width:100%;
-	min-height:470px;
+	/* min-height:470px; */
 }
 .not2 {
 	float:right;
 	width:65%;
-	min-height:470px;
+	/* min-height:470px; */
 }
