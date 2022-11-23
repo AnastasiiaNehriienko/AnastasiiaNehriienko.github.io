@@ -122,7 +122,7 @@ div {
     justify-content:center;
     align-items:center;
 }
-@media screen and (max-width:780px) and (orientation:portrait){
+@media screen and (max-width:780px){
 	.header{
 		flex-direction:column;
 		gap:10px;
@@ -130,6 +130,7 @@ div {
 	.h{
 		margin: 0.5em 20px 0.5em 20px;
 		order:-1;
+		white-space:nowrap:
 	}
 	.footer{
 		flex-direction: column;
@@ -140,5 +141,60 @@ div {
 	}
 	.four, .not4{
 		width:100%;
+	}
+}
+@media screen and (max-device-width:780px){
+	.header{
+		flex-direction:column;
+		gap:10px;
+	}
+	.h{
+		margin: 0.5em 20px 0.5em 20px;
+		order:-1;
+		white-space:nowrap:
+	}
+	.footer{
+		flex-direction: column;
+    gap: 10px;
+	}
+	.main{
+		flex-direction: column;
+	}
+	.four, .not4{
+		width:100%;
+	}
+}
+@media screen and (max-device-width:1000px){
+
+	.header{
+		flex-direction:column;
+		gap:10px;
+	}
+	.h{
+		margin: 0.5em 20px 0.5em 20px;
+		order:-1;
+		white-space:nowrap;
+	}
+	.footer{
+		flex-direction: column;
+    gap: 10px;
+	}
+	.main{
+		flex-direction: column;
+	}
+	.four, .not4{
+		width:100%;
+	}	
+	.footer, .four, .six{
+	font-size:x-small;
+	}
+	.three, .five{
+	font-size:middle;
+	}
+	.two {
+	font-size:xx-large;
+	}
+	.hY{
+	font-size:large;
 	}
 }
