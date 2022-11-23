@@ -122,3 +122,23 @@ div {
     justify-content:center;
     align-items:center;
 }
+@media screen and (max-width:650px){
+	.header{
+		flex-direction:column;
+		gap:10px;
+	}
+	.h{
+		margin: 0.5em 20px 0.5em 20px;
+		order:-1;
+	}
+	.footer{
+		flex-direction: column;
+    gap: 10px;
+	}
+	.main{
+		flex-direction: column;
+	}
+	.four, .not4{
+		width:100%;
+	}
+}
