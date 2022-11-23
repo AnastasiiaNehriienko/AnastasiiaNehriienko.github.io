@@ -122,7 +122,7 @@ div {
     justify-content:center;
     align-items:center;
 }
-@media screen and (max-width:780px){
+@media screen and (max-width:780px) and (orientation:portrait){
 	.header{
 		flex-direction:column;
 		gap:10px;
