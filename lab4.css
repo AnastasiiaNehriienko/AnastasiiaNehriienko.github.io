@@ -1,6 +1,9 @@
 body{
 	margin:0px;
 }
+.changeP{
+	display:none;
+}
 a:-webkit-any-link{
 	color:black;
 	text-decoration: auto;
@@ -92,7 +95,7 @@ a:-webkit-any-link{
 }
 .Box1, .Box2, .Box3{
 	margin:10px;
-	background:white;
+	background-color:white;
 	width:170px;
 	min-height:170px;
 	padding-top:5px;
@@ -100,10 +103,21 @@ a:-webkit-any-link{
 	padding-right:20px;
 	padding-bottom:10px;
 	box-shadow:5px 5px 20px #404040; 
+	cursor:pointer;
 }
+
 @media screen and (max-width:780px){
+	.Box1, .Box2, .Box3 {
+		width:40%;  /*!*/
+		font-size:1.2em;
+	}
+	.TextBoxes div p{
+	font-size:1.2em;
+}
 	.TextBoxes {
 		flex-direction:column;
+		justify-content:auto;
+		align-items:center;
 		margin-top:150px;
 		margin-bottom:500px;
 	}
@@ -151,10 +165,18 @@ a:-webkit-any-link{
 	}
 }
 @media screen and (max-device-width:780px){
+		.Box1, .Box2, .Box3 {
+		width:40%;  /*!*/
+		font-size:1.2em;
+	}
+	.TextBoxes div p{
+	font-size:1.2em;
+}
 	.TextBoxes {
 		flex-direction:column;
 		margin-top:150px;
 		margin-bottom:500px;
+		
 	}
 	.menu ul{
 		display:none;
