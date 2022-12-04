@@ -48,8 +48,9 @@ a:-webkit-any-link{
 	color:black;
 }
 .menu-btn:hover .hiddenMenu{
-		display:block;
+	display:block;
 	}
+
 .hiddenMenu a:hover{
 	background-color:#dcdde0;
 }

@@ -31,20 +31,26 @@
 		</header>
 		<main class="main">
 		<div class="TextBoxes">
-			<div class="Box1">
+			<div id="box1id" class="Box1">
 				<h4>Machine Learning</h4>
-				<p contenteditable="true">Sample text. Click to select the text box.
+				<p id="ucP1">Sample text. Click to select the text box.
+				Click again or double click to start editing the text.</p>
+				<p contenteditable="true" id="cP1" class="changeP">Sample text. Click to select the text box.
 				Click again or double click to start editing the text.<p>
 			</div>
-			<div class="Box2">
+			<div id="box2id" class="Box2">
 				<h4>Edge Computing</h4>
-				<p>Sample text. Click to select the text box.
+				<p id="ucP2">Sample text. Click to select the text box.
 				Click again or double click to start editing the text.</p>
+				<p contenteditable="true" id="cP2" class="changeP">Sample text. Click to select the text box.
+				Click again or double click to start editing the text.<p>
 			</div>
-			<div class="Box3">
+			<div id="box3id" class="Box3">
 				<h4>Artificial Intelligence</h4>
-				<p>Sample text. Click to select the text box.
+				<p id="ucP3">Sample text. Click to select the text box.
 				Click again or double click to start editing the text.</p>
+				<p contenteditable="true" id="cP3" class="changeP">Sample text. Click to select the text box.
+				Click again or double click to start editing the text.<p>
 			</div>
 		</div>
 		</main>
@@ -53,5 +59,50 @@
 			adipiscing elit nullam nunc justo sagittis suscipit ultrices.
 			</div>
 		</footer>
+		<script>
+		const b1 = document.getElementById('box1id');
+		const b2 = document.getElementById('box2id');
+		const b3 = document.getElementById('box3id');
+		const p1 = document.getElementById('ucP1');
+		const p2 = document.getElementById('ucP2');
+		const p3 = document.getElementById('ucP3');
+		const p01 = document.getElementById('cP1');
+		const p02 = document.getElementById('cP2');
+		const p03 = document.getElementById('cP3');
+b1.addEventListener('click', function onClick(event) {
+  b1.style.backgroundColor = 'lightgrey';
+  b2.style.backgroundColor = 'white';
+  b3.style.backgroundColor = 'white';
+  p1.style.display="none";
+  p01.style.display="block";
+  p02.style.display="none";
+  p2.style.display="block";
+  p03.style.display="none";
+  p3.style.display="block";
+  
+});
+ b2.addEventListener('click', function onClick(event) {
+  b2.style.backgroundColor = 'lightgrey';
+  b1.style.backgroundColor = 'white';
+  b3.style.backgroundColor = 'white';
+  p2.style.display="none";
+  p02.style.display="block";
+  p01.style.display="none";
+  p1.style.display="block";
+  p03.style.display="none";
+  p3.style.display="block";
+});
+b3.addEventListener('click', function onClick(event) {
+  b3.style.backgroundColor = 'lightgrey';
+  b2.style.backgroundColor = 'white';
+  b1.style.backgroundColor = 'white';
+  p3.style.display="none";
+  p03.style.display="block";
+  p02.style.display="none";
+  p2.style.display="block";
+  p01.style.display="none";
+  p1.style.display="block";
+});
+		</script>
 	</body>
 </html>
