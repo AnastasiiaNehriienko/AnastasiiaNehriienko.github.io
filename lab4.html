@@ -16,9 +16,9 @@
 			<li><a href="">Page 1</a></li>
 			<li><a href="">Page 3</a></li>
 			</ul>
-			<div class="menu-btn">
+			<div class="menu-btn" id="menu">
 			<div class="menu-btn__burger">
-			<div class="hiddenMenu">
+			<div class="hiddenMenu" id="hidmenu">
 			<a href="">Page 4</a>
 			<a>Page 5</a>
 			<a href="">Page 2</a>
@@ -60,6 +60,11 @@
 			</div>
 		</footer>
 		<script>
+		document.getElementById("menu").addEventListener('click', function onClick(event) {
+			if(document.getElementById("hidmenu").style.display=="block"){
+			document.getElementById("hidmenu").style.display="none";} 
+			else {document.getElementById("hidmenu").style.display="block";}
+		});
 		const b1 = document.getElementById('box1id');
 		const b2 = document.getElementById('box2id');
 		const b3 = document.getElementById('box3id');
