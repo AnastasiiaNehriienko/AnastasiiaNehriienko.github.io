@@ -151,7 +151,7 @@ div {
 	.h{
 		margin: 0.5em 20px 0.5em 20px;
 		order:-1;
-		white-space:nowrap:
+		white-space:nowrap;
 	}
 	.footer{
 		flex-direction: column;
